@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMPS401 PHP Quiz</title>
+</head>
+<body style="background-color: #FFFFCC;">
+    <h1>CMPS401 PHP Quiz</h1>
+    <form action="P3.php" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" required>
+        <br><br>
+
+        <ol>
+            <!-- Question 1 -->
+            <li>
+                What does PHP stand for?<br>
+                <input type="radio" name="q1" value="a"> PHP: Hypertext Preprocessor<br>
+                <input type="radio" name="q1" value="b"> Personal Hypertext Processor<br>
+                <input type="radio" name="q1" value="c"> Private Home Page<br>
+                <input type="radio" name="q1" value="d"> Personal Home Page<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 2 -->
+            <li>
+                How do you write "Hello World" in PHP?<br>
+                <input type="radio" name="q2" value="a"> "Hello World";<br>
+                <input type="radio" name="q2" value="b"> Document.Write("Hello World");<br>
+                <input type="radio" name="q2" value="c"> echo "Hello World";<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 3 -->
+            <li>
+                All variables in PHP start with which symbol?<br>
+                <input type="radio" name="q3" value="a"> $<br>
+                <input type="radio" name="q3" value="b"> @<br>
+                <input type="radio" name="q3" value="c"> %<br>
+                <input type="radio" name="q3" value="d"> &<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 4 -->
+            <li>
+                What is the correct way to add 1 to the $count variable?<br>
+                <input type="radio" name="q4" value="a"> $count++;<br>
+                <input type="radio" name="q4" value="b"> $count =+ 1<br>
+                <input type="radio" name="q4" value="c"> ++count<br>
+                <input type="radio" name="q4" value="d"> count++;<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 5 -->
+            <li>
+                How do you get information from a form that is submitted using the "post" method?<br>
+                <input type="radio" name="q5" value="a"> Request.Form;<br>
+                <input type="radio" name="q5" value="b"> $_GET[];<br>
+                <input type="radio" name="q5" value="c"> $_POST[];<br>
+                <input type="radio" name="q5" value="d"> Request.QueryString;<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 6 -->
+            <li>
+                When using the POST method, variables are displayed in the URL:<br>
+                <input type="radio" name="q6" value="a"> True<br>
+                <input type="radio" name="q6" value="b"> False<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 7 -->
+            <li>
+                In PHP, you can use both single quotes (' ') and double quotes (" ") for strings:<br>
+                <input type="radio" name="q7" value="a"> True<br>
+                <input type="radio" name="q7" value="b"> False<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 8 -->
+            <li>
+                What is the correct way to create a function in PHP?<br>
+                <input type="radio" name="q8" value="a"> create myFunction()<br>
+                <input type="radio" name="q8" value="b"> new_function myFunction()<br>
+                <input type="radio" name="q8" value="c"> function myFunction()<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 9 -->
+            <li>
+                What is the correct way to connect to a MySQL database?<br>
+                <input type="radio" name="q9" value="a"> mysql_connect("localhost");<br>
+                <input type="radio" name="q9" value="b"> mysql_query("localhost");<br>
+                <input type="radio" name="q9" value="c"> connect_mysql("localhost");<br>
+                <input type="radio" name="q9" value="d"> mysql_open("localhost");<br>
+            </li>
+
+            <hr>
+
+            <!-- Question 10 -->
+            <li>
+                The following HTML code will direct form information and control to what file?<br>
+                <input type="radio" name="q10" value="a"> P3.php<br>
+            </li>
+
+            <hr>
+
+            <input type="submit" value="Submit Answers">
+        </ol>
+    </form>
+</body>
+</html>
